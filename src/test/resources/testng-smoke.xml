@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1">
+    <test name="Calculator">
+        <classes>
+            <class name="tests.longSumTest">
+                <methods>
+                    <include name="sumOfTwoLongNumbersIsCorrect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
