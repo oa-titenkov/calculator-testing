@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class ctgTest extends CommonConditions {
+public class CtgTest extends CommonConditions {
 
     @Test(dataProvider = "data")
     public void ctgOfNumberIsCorrect(double a, double result) {

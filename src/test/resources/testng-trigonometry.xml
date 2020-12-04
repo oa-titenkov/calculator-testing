@@ -3,10 +3,10 @@
 <suite name="All" verbose="1">
     <test name="Calculator">
         <classes>
-            <class name="testng.sinTest"/>
-            <class name="testng.cosTest"/>
-            <class name="testng.tgTest"/>
-            <class name="testng.ctgTest"/>
+            <class name="testng.SinTest"/>
+            <class name="testng.CosTest"/>
+            <class name="testng.TgTest"/>
+            <class name="testng.CtgTest"/>
         </classes>
     </test>
 </suite>

@@ -8,12 +8,12 @@
             </run>
         </groups>
         <classes>
-            <class name="testng.sumTest"/>
-            <class name="testng.subTest"/>
-            <class name="testng.multTest"/>
-            <class name="testng.divTest"/>
-            <class name="testng.powTest"/>
-            <class name="testng.sqrtTest"/>
+            <class name="testng.SumTest"/>
+            <class name="testng.SubTest"/>
+            <class name="testng.MultTest"/>
+            <class name="testng.DivTest"/>
+            <class name="testng.PowTest"/>
+            <class name="testng.SqrtTest"/>
         </classes>
     </test>
 

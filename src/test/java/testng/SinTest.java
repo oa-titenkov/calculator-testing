@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class sinTest extends CommonConditions {
+public class SinTest extends CommonConditions {
 
     @Test(dataProvider = "data")
     public void sinOfNumberIsCorrect(double a, double result) {

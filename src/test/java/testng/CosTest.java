@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class cosTest extends CommonConditions {
+public class CosTest extends CommonConditions {
 
     @Test(dataProvider = "data")
     public void cosOfNumberIsCorrect(double a, double result) {

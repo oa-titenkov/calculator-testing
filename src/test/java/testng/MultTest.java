@@ -4,22 +4,16 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class divTest extends CommonConditions {
+public class MultTest extends CommonConditions {
 
     @Test(dataProvider = "dataLong")
-    public void divisionOfLongNumbersIsCorrect(long a, long b, long result) {
-        Assert.assertEquals(calculator.div(a, b), result);
+    public void multiplicationOfLongNumbersIsCorrect(long a, long b, long result) {
+        Assert.assertEquals(calculator.mult(a, b), result);
     }
 
     @Test(dataProvider = "dataDouble", groups = "doubleDataGroup")
-    public void divisionOfDoubleNumbersIsCorrect(double a, double b, double result) {
-        Assert.assertEquals(calculator.div(a, b), result);
-    }
-
-    @Test(expectedExceptions = NumberFormatException.class,
-            expectedExceptionsMessageRegExp = "Attempt to divide by zero")
-    public void divisionByZeroThrowsException() {
-        calculator.div(0, 0.0);
+    public void multiplicationOfDoubleNumbersIsCorrect(double a, double b, double result) {
+        Assert.assertEquals(calculator.mult(a, b), result);
     }
 
     @DataProvider(name = "dataLong", parallel = true)
@@ -27,9 +21,9 @@ public class divTest extends CommonConditions {
         return new Object[][]{
                 {1, 1, 1},
                 {-1, -1, 1},
+                {0, 0, 0},
+                {-1, 5, -5},
                 {22222222L, -22222222L, -493827150617284L},
-                {-1, 1, -1},
-                {-1, 5, -0.2},
                 {Long.MAX_VALUE, 1, Long.MAX_VALUE},
         };
     }

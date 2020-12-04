@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static java.lang.Double.NaN;
 
-public class sqrtTest extends CommonConditions {
+public class SqrtTest extends CommonConditions {
 
     @Test(dataProvider = "data")
     public void squareRootIsCorrect(double a, double result) {

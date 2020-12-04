@@ -3,19 +3,19 @@
 <suite name="All" verbose="1">
     <test name="Calculator" parallel="classes" thread-count="10">
         <classes>
-            <class name="testng.sinTest"/>
-            <class name="testng.cosTest"/>
-            <class name="testng.tgTest"/>
-            <class name="testng.ctgTest"/>
-            <class name="testng.sumTest"/>
-            <class name="testng.subTest"/>
-            <class name="testng.divTest"/>
-            <class name="testng.multTest"/>
-            <class name="testng.powTest"/>
-            <class name="testng.sqrtTest"/>
-            <class name="testng.isPositiveTest"/>
-            <class name="testng.isNegativeTest"/>
-            <class name="junit.sumTest"/>
+            <class name="testng.SinTest"/>
+            <class name="testng.CosTest"/>
+            <class name="testng.TgTest"/>
+            <class name="testng.CtgTest"/>
+            <class name="testng.SumTest"/>
+            <class name="testng.SubTest"/>
+            <class name="testng.DivTest"/>
+            <class name="testng.MultTest"/>
+            <class name="testng.PowTest"/>
+            <class name="testng.SqrtTest"/>
+            <class name="testng.IsPositiveTest"/>
+            <class name="testng.IsNegativeTest"/>
+            <class name="junit.SumTest"/>
         </classes>
     </test>
 </suite>

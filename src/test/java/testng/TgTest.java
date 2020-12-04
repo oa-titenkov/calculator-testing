@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class tgTest extends CommonConditions {
+public class TgTest extends CommonConditions {
 
     @Test(dataProvider = "data")
     public void tanOfNumberIsCorrect(double a, double result) {

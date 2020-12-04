@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class powTest extends CommonConditions {
+public class PowTest extends CommonConditions {
 
     @Test(dataProvider = "data")
     public void exponentiationIsCorrect(double a, double b, double result) {
