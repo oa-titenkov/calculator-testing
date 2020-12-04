@@ -1,19 +1,19 @@
-package tests;
+package testng;
 
 import com.epam.tat.module4.Calculator;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 
 public class CommonConditions {
 
     protected Calculator calculator;
 
-    @BeforeSuite(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void setCalculator() {
         calculator = new Calculator();
     }
 
-    @AfterSuite(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void clearCalculator() {
         calculator = null;
     }

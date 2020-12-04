@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All" verbose="1">
+    <test name="Calculator">
+        <groups>
+            <run>
+                <include name="doubleDataGroup"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.sumTest"/>
+            <class name="testng.subTest"/>
+            <class name="testng.multTest"/>
+            <class name="testng.divTest"/>
+            <class name="testng.powTest"/>
+            <class name="testng.sqrtTest"/>
+        </classes>
+    </test>
+
+</suite>

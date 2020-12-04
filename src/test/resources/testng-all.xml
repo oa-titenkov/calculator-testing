@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All" verbose="1">
+    <test name="Calculator" parallel="classes" thread-count="10">
+        <classes>
+            <class name="testng.sinTest"/>
+            <class name="testng.cosTest"/>
+            <class name="testng.tgTest"/>
+            <class name="testng.ctgTest"/>
+            <class name="testng.sumTest"/>
+            <class name="testng.subTest"/>
+            <class name="testng.divTest"/>
+            <class name="testng.multTest"/>
+            <class name="testng.powTest"/>
+            <class name="testng.sqrtTest"/>
+            <class name="testng.isPositiveTest"/>
+            <class name="testng.isNegativeTest"/>
+            <class name="junit.sumTest"/>
+        </classes>
+    </test>
+</suite>

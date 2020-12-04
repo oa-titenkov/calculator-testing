@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All" verbose="1">
+    <test name="Calculator">
+        <classes>
+            <class name="testng.sinTest"/>
+            <class name="testng.cosTest"/>
+            <class name="testng.tgTest"/>
+            <class name="testng.ctgTest"/>
+        </classes>
+    </test>
+</suite>

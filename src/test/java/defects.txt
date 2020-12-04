@@ -1,0 +1,10 @@
+1. sum, sub, mult, div methods use double values which leads to rounding errors
+2. mult method with double inputs has unnecessary Math.floor on result
+3. div method with double input doesn't have divide by zero catch
+4. div method returns only long values
+5. pow method has Math.floor in it
+6. abs method in sqrt
+7. cos, tg, ctg have wrong formulas
+
+(?)isPositive, isNegative don't take doubles
+
